@@ -1,5 +1,5 @@
 #  Custom AndroidIDE Repo
-#  (IDE TERMUX REPO)
+## (IDE TERMUX REPO)
 <div align="center">
   <a href="https://kelexine.github.io/ide-termux-repo">
     <img alt="kelexine" height="200" src="assets/img.png">
@@ -19,8 +19,7 @@
 
 ## 🔍 Overview
 
-This repository serves as an extended package source for AndroidIDE users, providing specialized tools and utilities not found in the official repositories. I made this repo since the Official AndroidIDE is mo longer working.
-
+This repository serves as an extended package source for AndroidIDE users, providing specialized tools and utilities not found in the official repositories. I made this repo since the Official AndroidIDE is longer working.
 
 ## 🛠️ Installation
 
@@ -52,7 +51,7 @@ If you find this repository useful, please consider supporting our work:
 - ⭐ Star this repository
 - 📢 Contact [Telegram](https://t.me/kelexine2)
 - ☕ Buy Me A [Coffee](https://www.buymeacoffee.com/kelexine)
-- 🫡 Than You [Anon4You](https://github.com/Anon4You/alienkrishn)
+- 🫡 Thank You [Anon4You](https://github.com/Anon4You/alienkrishn)
 ** Your support helps us maintain and improve this repository! **
 
 ## 📜 License
