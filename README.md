@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/github/license/Kelexine/Ide-termux-repo" alt="License">
   </a>
   <a href="https://t.me/kelexine2">
-    <img src="https://img.shields.io/badge/Telegram-Join_Channel-26A5E4?logo=telegram" alt="Telegram">
+    <img src="https://img.shields.io/badge/Telegram-KELEXINE-26A5E4?logo=telegram" alt="Telegram">
   </a>
 </p>
 
@@ -52,7 +52,7 @@ If you find this repository useful, please consider supporting our work:
 - ⭐ Star this repository
 - 📢 Contact [Telegram](https://t.me/kelexine2)
 - ☕ Buy Me A [Coffee](https://www.buymeacoffee.com/kelexine)
-
+- 🫡 Than You [Anon4You](ttps://github.com/Anon4You/alienkrishn)
 Your support helps us maintain and improve this repository!
 
 ## 📜 License
