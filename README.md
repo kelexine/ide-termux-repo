@@ -1,4 +1,3 @@
-#  (Custom AdroidIDE Repo)
 <div align="center">
   <a href="https://kelexine.github.io/ide-termux-repo">
     <img alt="kelexine" height="200" src="assets/img.png">
