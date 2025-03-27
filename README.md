@@ -1,3 +1,4 @@
+#  (Custom AdroidIDE Repo)
 <div align="center">
   <a href="https://kelexine.github.io/ide-termux-repo">
     <img alt="kelexine" height="200" src="assets/img.png">
@@ -24,7 +25,7 @@ This repository serves as an extended package source for AndroidIDE users, provi
 ### Add the Repository
 To add this repository to your Termux installation, run:
 ```bash
-curl -sL https://github.com/kelexine/raw/main/addrepo | bash
+curl -sL https://raw.githubusercontent.com/kelexine/raw/main/install.sh | bash
 ```
 
 ### Install Packages
