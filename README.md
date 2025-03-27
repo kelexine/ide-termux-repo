@@ -24,7 +24,7 @@ This repository serves as an extended package source for AndroidIDE users, provi
 ### Add the Repository
 To add this repository to your Termux installation, run:
 ```bash
-curl -sL https://raw.githubusercontent.com/kelexine/raw/main/install.sh | bash
+curl -sL https://github.com/kelexine/ide-termux-repo/raw/refs/heads/main/install.sh | bash
 ```
 
 ### Install Packages
