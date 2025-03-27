@@ -48,11 +48,10 @@ A: We strive to keep packages updated regularly. Check our Telegram channel for 
 
 If you find this repository useful, please consider supporting our work:
 - ⭐ Star this repository
-- 📺 Subscribe to our [YouTube Channel](https://youtube.com/@alienkrishnorg)
 - 📢 Contact [Telegram](https://t.me/kelexine2)
-- ☕ Buy Me A [Coffee](https://www.instagram.com/alienkrishn)
+- ☕ Buy Me A [Coffee](https://www.buymeacoffee.com/kelexine)
 
 Your support helps us maintain and improve this repository!
 
 ## 📜 License
-This project is licensed under the [MIT License](https://github.com/Anon4You/alienkrishn/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/kelexine/ide-termux-repo/blob/main/LICENSE).
