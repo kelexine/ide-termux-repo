@@ -1,5 +1,4 @@
-#  Custom AndroidIDE Repo
-## (IDE TERMUX REPO)
+#  (Custom AdroidIDE Repo)
 <div align="center">
   <a href="https://kelexine.github.io/ide-termux-repo">
     <img alt="kelexine" height="200" src="assets/img.png">
@@ -52,6 +51,7 @@ If you find this repository useful, please consider supporting our work:
 - 📢 Contact [Telegram](https://t.me/kelexine2)
 - ☕ Buy Me A [Coffee](https://www.buymeacoffee.com/kelexine)
 - 🫡 Thank You [Anon4You](https://github.com/Anon4You/alienkrishn)
+  
 ** Your support helps us maintain and improve this repository! **
 
 ## 📜 License
