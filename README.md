@@ -52,7 +52,7 @@ If you find this repository useful, please consider supporting our work:
 - ⭐ Star this repository
 - 📢 Contact [Telegram](https://t.me/kelexine2)
 - ☕ Buy Me A [Coffee](https://www.buymeacoffee.com/kelexine)
-- 🫡 Than You [Anon4You](ttps://github.com/Anon4You/alienkrishn)
+- 🫡 Than You [Anon4You](https://github.com/Anon4You/alienkrishn)
 Your support helps us maintain and improve this repository!
 
 ## 📜 License
