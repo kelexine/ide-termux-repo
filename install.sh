@@ -40,7 +40,7 @@ if [[ ! -d $PREFIX/etc/apt/sources.list.d ]]; then
   mkdir -p $PREFIX/etc/apt/sources.list.d > /dev/null 2>&1 || handle_error "Failed to create sources.list.d directory."
 fi
 
-echo "deb [trusted=yes arch=all] https://kelexine.github.io/ide-termux-repo kelexine main" > $PREFIX/etc/apt/sources.list.d/kelexine.list || handle_error "Failed to add Custom AndroidIDE repository."
+echo "deb [trusted=yes arch=all] https://kelexine.github.io/ide-termux-repo kelexine InRelease" > $PREFIX/etc/apt/sources.list.d/kelexine.list || handle_error "Failed to add Custom AndroidIDE repository."
 echo -e "${GREEN}${CHECK} Custom AndroidIDE repository added successfully!${RESET}"
 echo ""
 
