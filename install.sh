@@ -45,9 +45,39 @@ else
 fi
 
 # GPG Key Management
-echo -e "\n${YELLOW}${INFO} Configuring GPG keys...${RESET}"
-key_url="https://raw.githubusercontent.com/kelexine/ide-termux-repo/main/public.key"
-key_file="$PREFIX/etc/apt/trusted.gpg.d/kelexine.gpg"
+# Add repository key (using apt-key)
+echo -e "${YELLOW}${INFO} Adding GPG key for Kelexine's repository...${RESET}"
+key_url="https://raw.githubusercontent.com/kelexine/ide-termux-repo/main/kelexine.key"
+
+# Temporary file for key storage
+tmp_key=$(mktemp)
+
+if ! curl -fsSL "$key_url" > "$tmp_key"; then
+    handle_error "Failed to download GPG key from: $key_url"
+fi
+
+if ! apt-key add "$tmp_key" >/dev/null 2>&1; then
+    rm -f "$tmp_key"
+    handle_error "Failed to add GPG key using apt-key"
+fi
+rm -f "$tmp_key"
+echo -e "${GREEN}${CHECK} GPG key added using apt-key!${RESET}"
+
+# Attempt to organize keys (legacy compatibility)
+echo -e "\n${YELLOW}${INFO} Organizing GPG keys (legacy compatibility)...${RESET}"
+if [ -f "$PREFIX/etc/apt/trusted.gpg" ]; then
+    if ! mkdir -p "$PREFIX/etc/apt/trusted.gpg.d"; then
+        echo -e "${RED}${WARN} Failed to create trusted.gpg.d directory${RESET}"
+    else
+        if ! mv "$PREFIX/etc/apt/trusted.gpg" "$PREFIX/etc/apt/trusted.gpg.d/"; then
+            echo -e "${RED}${WARN} Failed to move trusted.gpg file${RESET}"
+        else
+            echo -e "${GREEN}${CHECK} Moved trusted.gpg to trusted.gpg.d/${RESET}"
+        fi
+    fi
+else
+    echo -e "${YELLOW}${WARN} trusted.gpg file not found - new apt versions may store keys differently${RESET}"
+fi
 
 if ! curl -fsSL "$key_url" > "$key_file"; then
   handle_error "Failed to download GPG key. Check URL: $key_url"
