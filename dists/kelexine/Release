@@ -1,27 +1,47 @@
-Codename: termux
-Version: 1
-Architectures: all
-Description: kelexine repository
+Architectures: aarch64 arm i686 x86_64 
+Codename: kelexine
+Components: main
+Date: Sat, 29 Mar 2025 11:03:35 +0000
+Label: AndroidIDE Repository
+Origin: AndroidIDE
 Suite: kelexine
-Date: Thu, 27 Mar 2025 23:29:37 UTC
-Components: InRelease
 MD5Sum:
- 6e78debd93e4d98c01b6002e74f42498 1850 InRelease/binary-all/Packages
- b7ebae1d7012b08d046e5b221dc734b1 1080 InRelease/binary-all/Packages.xz
- de06e0b2af75761480efca8905b6f029 116 InRelease/Contents-all.xz
- a7a5ea1328da9ccff62ada0381590be5 86 InRelease/Contents-all
+ 94a75a7016ec2f2e3ee398b43e5cf389              178 Release
+ c6d8643e08a4aed3cd473b7d3bd9f130           141732 main/binary-aarch64/Packages
+ 7dace2c23b03379b2b36d56312280440            47123 main/binary-aarch64/Packages.gz
+ a7479e9e9fb787ed4c2397ee1b4b0f66            10961 main/binary-arm/Packages
+ 7a7ea456ac412cfd8c07c2603431230d             4193 main/binary-arm/Packages.gz
+ a7479e9e9fb787ed4c2397ee1b4b0f66            10961 main/binary-i686/Packages
+ 939382c33ebecf09866cbfc140ab1170             4193 main/binary-i686/Packages.gz
+ a7479e9e9fb787ed4c2397ee1b4b0f66            10961 main/binary-x86_64/Packages
+ 939382c33ebecf09866cbfc140ab1170             4193 main/binary-x86_64/Packages.gz
 SHA1:
- 39523df72656ed1e88049893bd2589f77b6d4dda 1850 InRelease/binary-all/Packages
- 326c0000b2c6f5e73b458c7c8c3e88153a4b54d0 1080 InRelease/binary-all/Packages.xz
- d9a3a01a7ef0d74162a495e14aff72ba81e2105c 116 InRelease/Contents-all.xz
- 8bcc86e847ecdf6acc2edd80d066d143e9d97725 86 InRelease/Contents-all
+ 65586d51de08dae71cadb001d243d7a10d6c1dc7              178 Release
+ 741f335472b4c5b7c443e37d727f3b307398c0a3           141732 main/binary-aarch64/Packages
+ aecb06b567b3d60f381cce016c8d865407fdaa95            47123 main/binary-aarch64/Packages.gz
+ 2796b29e7e2bd41862a788241c04532b281db01e            10961 main/binary-arm/Packages
+ 6a619b77b1e589fe53d010964b641c7442c8f3f7             4193 main/binary-arm/Packages.gz
+ 2796b29e7e2bd41862a788241c04532b281db01e            10961 main/binary-i686/Packages
+ c7dc2decea6e242fb298e9507d550e2e9df04b13             4193 main/binary-i686/Packages.gz
+ 2796b29e7e2bd41862a788241c04532b281db01e            10961 main/binary-x86_64/Packages
+ c7dc2decea6e242fb298e9507d550e2e9df04b13             4193 main/binary-x86_64/Packages.gz
 SHA256:
- eeb7981e0012cfc86be58238e1f79fcc58651ba453d4efce350256fe43c363ba 1850 InRelease/binary-all/Packages
- fd10883f58b15c815724414d5f926e4e942f6ed346060bbfa9103166dd625be4 1080 InRelease/binary-all/Packages.xz
- 4da4008f84d251e781a2d59426cde19eaee822407576b6720b5125f7d0245073 116 InRelease/Contents-all.xz
- f9b92baa5aceac20519f604bc28e80a7983565085d342ea0a113b9b4cb076535 86 InRelease/Contents-all
+ 61f6acbdcf01ff530e8854b66b0a6601afd213b98e9949bbd4dc4d23ccf8163d              178 Release
+ 61973cb09602c07a226850c9c0880403a6ec5f0356a0d45326e61c4f9576d32f           141732 main/binary-aarch64/Packages
+ 8ec70ec389f8d0d85f3505d8b7efd02d953f73933404bb6abae0cacf458175dd            47123 main/binary-aarch64/Packages.gz
+ 14c1cdc585a7812d1d88a312f62aa3908d640bb0f9aee159ed0d79b5873a7355            10961 main/binary-arm/Packages
+ d60ebf0b66536c755895e343e2cd6053b2f7e24ef780837e5afffb007e3ddf2c             4193 main/binary-arm/Packages.gz
+ 14c1cdc585a7812d1d88a312f62aa3908d640bb0f9aee159ed0d79b5873a7355            10961 main/binary-i686/Packages
+ 7295d18fe46afeefe593b62d89110189ffad2be002a881b27777f66a0672f7ba             4193 main/binary-i686/Packages.gz
+ 14c1cdc585a7812d1d88a312f62aa3908d640bb0f9aee159ed0d79b5873a7355            10961 main/binary-x86_64/Packages
+ 7295d18fe46afeefe593b62d89110189ffad2be002a881b27777f66a0672f7ba             4193 main/binary-x86_64/Packages.gz
 SHA512:
- 2d4b041268473d2f4e80f305685f190d5277a41a44c010750357c6283f55d040a0650d2fb8149c9d2c18f0b5f13179b5cddfbe7a8b3768479ee0b3d8192a34a9 1850 InRelease/binary-all/Packages
- 01c036a56acaeb40de1449cec7fddbed3fe1abb34287e454d168c9ce187548f89fa8495d820b67009cb89cbee8b799ebd20f3e48ab14f609bcad0e8af4bbd2de 1080 InRelease/binary-all/Packages.xz
- a7645e5310c6fe4e0adb2d44fe111bb4982b089425fbea05fa94ea4842c1bc48925766dd25a41e3b22209511eb7c7cea9f3e5cc363f3a3057560c3e9fb19c7ec 116 InRelease/Contents-all.xz
- 1af3e68561097f315ee20ac3cb32b996d27bd2145a0f11cd5ab4f8dd15052baf8dd36f7f0d0431b837a1b52d3917857a83f21a7bb8e3836c20643e9e0e765b25 86 InRelease/Contents-all
+ e37a74666dad67a00d83e6eddaf8a66c2fc90fa8a9dbdf95de1b2c5d1d1e4d73985f1bf55930125dc7605b0100f002c8dc0ddcf57039032226c7bfec01bc5a4c              178 Release
+ 92e153b3f62a4d91a44016a19e276873d6cab755f4be9e3c0c30153a4d381189c8412c15a485bd3df214624b8dbe6eaff0043a176812e3950dc03d24a8249646           141732 main/binary-aarch64/Packages
+ d93c75983cebb87f7fb42e5287ec2f73a088e5339c6ba51376e73c73f860873628299a1a270e231d5a57fb2a8b08ab7714d80c558067f487a7c06187c722ac1a            47123 main/binary-aarch64/Packages.gz
+ 3243274ab4b6d61c23c091e483e11230a2a8cde2a8531152208d48b9915f187728233b8dd88e0db80f8f66376b7a3375dd156eead1fa1f132f10a3c1cabcbee4            10961 main/binary-arm/Packages
+ 93a6a371ac7e39f6650fbb7de4b04991a0e09b6bd8346ea42f429614930e306e0811ff673fbdac08cf1a7287b67ea046799c2600fbbe136263e6d8e2fe7149ba             4193 main/binary-arm/Packages.gz
+ 3243274ab4b6d61c23c091e483e11230a2a8cde2a8531152208d48b9915f187728233b8dd88e0db80f8f66376b7a3375dd156eead1fa1f132f10a3c1cabcbee4            10961 main/binary-i686/Packages
+ 6440dec246ac9419354b2e319451abce0c56750f67ec31c317d1453d1974f27bad98f90f5c276d9032e1f1709c6c518b299ab274a18e8de473f5d6167901bcdb             4193 main/binary-i686/Packages.gz
+ 3243274ab4b6d61c23c091e483e11230a2a8cde2a8531152208d48b9915f187728233b8dd88e0db80f8f66376b7a3375dd156eead1fa1f132f10a3c1cabcbee4            10961 main/binary-x86_64/Packages
+ 6440dec246ac9419354b2e319451abce0c56750f67ec31c317d1453d1974f27bad98f90f5c276d9032e1f1709c6c518b299ab274a18e8de473f5d6167901bcdb             4193 main/binary-x86_64/Packages.gz

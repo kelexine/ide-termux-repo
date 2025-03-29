@@ -1,0 +1,339 @@
+Package: apt-transport-tor
+Version: 2.8.1-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 0
+Depends: tor, apt (= 2.8.1-1)
+Filename: pool/main/apt-transport-tor_2.8.1-1_all.deb
+Size: 916
+MD5sum: c233f5e3b6f2da6761dc45b0a22e80f0
+SHA1: 5ab630b4a1504d9d88d8f676ee5670471ba68fc8
+SHA256: 540c323d56c9f30fbf0ad4a78ee5923a40721dc0c5144afb902373f3d8fcd59d
+Homepage: https://packages.debian.org/apt
+Description: APT transport for anonymous package downloads via Tor
+
+Package: ca-certificates
+Version: 1:2025.02.25
+Architecture: all
+Maintainer: @termux
+Installed-Size: 228
+Filename: pool/main/ca-certificates_1:2025.02.25_all.deb
+Size: 127968
+MD5sum: 41d60bcc4da22754759ca516118bf429
+SHA1: 29b359e0ad1479633b62d259a89ae262827514f0
+SHA256: d8fe45cfc3ae91a6afab2a9ee0e98618d97b4a19164758f2ddecd53bc325a2cb
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
+
+Package: ca-certificates-java
+Version: 1:2025.02.25
+Architecture: all
+Maintainer: @termux
+Installed-Size: 172
+Depends: ca-certificates (= 1:2025.02.25)
+Filename: pool/main/ca-certificates-java_1:2025.02.25_all.deb
+Size: 117116
+MD5sum: 548858e718da0ad129a1d24cf1ff16ff
+SHA1: a94f196ee37d1c5645df75c7d7ad42b92f7d1a5e
+SHA256: d21bb53a83ba009dedaf7026fd583cb8d13188f5136efbf331f27107bb14dc13
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates (java keystore format)
+
+Package: docbook-xml
+Version: 5.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2352
+Depends: libxml2-utils
+Breaks: docbook-xsl (<= 1.79.2-1)
+Filename: pool/main/docbook-xml_5.1_all.deb
+Size: 78216
+MD5sum: 338553eb6b2401b2b6c11733a716dfa0
+SHA1: f26cb8fe52595f2df7188d5c4e3089cea1b09fc4
+SHA256: 18f4988165864d3fe0acb9fbafb502bc9a3590f0a0b0cb9dca6a9df3aa216d75
+Homepage: https://www.oasis-open.org/docbook/
+Description: A widely used XML scheme for writing documentation and help
+
+Package: docbook-xsl
+Version: 1.79.2-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 33288
+Depends: docbook-xml (= 5.1), libxml2-utils, xsltproc
+Filename: pool/main/docbook-xsl_1.79.2-2_all.deb
+Size: 1248348
+MD5sum: a6ed1e298131359af838db83eb87c6e5
+SHA1: 23ab35aac8cb7bd951f625dbe4a8310c9a3abe6b
+SHA256: 398fb16c6be63eec17206a81849b8b7a1ce5ddbf76e173cd52da000cbf9ce5e1
+Homepage: https://docbook.org/
+Description: XML stylesheets for Docbook-xml transformations
+
+Package: dpkg-perl
+Version: 1.22.6-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 836
+Depends: perl, clang, make, dpkg (= 1.22.6-1)
+Filename: pool/main/dpkg-perl_1.22.6-1_all.deb
+Size: 126260
+MD5sum: ae41a20233f9d5a48bcc86c96d23c709
+SHA1: 71bb5e674273cc28821f859ea95e5a95c2432fcf
+SHA256: 4c7e674eb5774bb9d6826cd771253f6446549380a75a5bd2c0a433ad9e8ee72d
+Homepage: https://packages.debian.org/dpkg
+Description: Perl modules for dpkg
+
+Package: dpkg-scanpackages
+Version: 1.22.6-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 16
+Depends: dpkg-perl, dpkg (= 1.22.6-1)
+Filename: pool/main/dpkg-scanpackages_1.22.6-1_all.deb
+Size: 6504
+MD5sum: 771549394ad41745b04734dde9fe0e02
+SHA1: 5d7639c98c02816947a71ef2b3dba6577e1e0fa6
+SHA256: fc1654a1cf8440c830aafcd86066c4642b580a93081a041e0c1501aeb5e6a5ea
+Homepage: https://packages.debian.org/dpkg
+Description: Creates Packages index files
+
+Package: git-svn
+Version: 2.49.0
+Architecture: all
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 260
+Depends: subversion-perl, git (= 2.49.0)
+Filename: pool/main/git-svn_2.49.0_all.deb
+Size: 75552
+MD5sum: 7e625efe8827af8463b2cf2c85f5e288
+SHA1: c0f728ea3cb947cb5246e1074adcf6495e90b3c4
+SHA256: 46efd0541a102163257d66a81c9f462592f49905360aff80b3b41fc4f5534501
+Homepage: https://git-scm.com/
+Description: Convert between Git and Subversion repositories
+
+Package: libglvnd-dev
+Version: 1.7.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2260
+Breaks: mesa (<< 22.3.3-2), mesa-dev (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
+Replaces: mesa (<< 22.3.3-2), mesa-dev (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
+Filename: pool/main/libglvnd-dev_1.7.0_all.deb
+Size: 150288
+MD5sum: 264c95c7f0a6b96d289078131ee45629
+SHA1: 60354356684f4983e3cdfaa531d02c520bd9fc1f
+SHA256: ef97fab05f66fe8b695d0407d5df861fb27ac7f5fae29c3970d34c9ea1344773
+Homepage: https://gitlab.freedesktop.org/glvnd/libglvnd
+Description: GLVND's OpenGL headers
+
+Package: libwayland-cross-scanner
+Version: 1.23.1-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 312
+Depends: libwayland (= 1.23.1-1)
+Filename: pool/main/libwayland-cross-scanner_1.23.1-1_all.deb
+Size: 84880
+MD5sum: 99f826d02357fdee9b49f47791690d5b
+SHA1: 1d700f5fefb9cb30c208ee44a63e109fd418d54d
+SHA256: 2fc9d6fa3d25c3cc5bedf4fb93fd5d2e1eb8dab35821fced81327998bed25dee
+Homepage: https://wayland.freedesktop.org/
+Description: wayland-scanner for host (NOT for Termux)
+
+Package: libwayland-protocols
+Version: 1.41
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1176
+Filename: pool/main/libwayland-protocols_1.41_all.deb
+Size: 116204
+MD5sum: d3bc40912751d1664c5e71065285b054
+SHA1: 3ad2c2813d5c3c22bf0cfe235075ff0adefec828
+SHA256: 921a6d2651f5e3b47c0a4c4ce17fce98aa25e8867622d021eda5abc94c32eb38
+Homepage: https://wayland.freedesktop.org/
+Description: Wayland protocols library
+
+Package: openjdk-17-source
+Version: 17.0-38
+Architecture: all
+Maintainer: @termux
+Installed-Size: 50420
+Filename: pool/main/openjdk-17-source_17.0-38_all.deb
+Size: 46697368
+MD5sum: fe76bdac229e7891c512b446ba2c833f
+SHA1: 63e2ee6834fc20c3d4e3ea48958ee97cc860d395
+SHA256: c784c94e5ae76171da85effda3d0cb7a9d91b3f68ebaf103639fb20f6bf28b2d
+Homepage: https://github.com/openjdk/mobile
+Description: Source files for openjdk-17
+
+Package: python-ensurepip-wheels
+Version: 3.12.9
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1780
+Depends: python (= 3.12.9)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Filename: pool/main/python-ensurepip-wheels_3.12.9_all.deb
+Size: 1782236
+MD5sum: c10610d88a99bbdbf3b2e0a9f8fd9e4b
+SHA1: 39693d77d3d91aec8360e2ce21a41b9f40baded8
+SHA256: fe396c01b7a426c015ce55456622aed41a27a8448dfdaeed376338665f50c6c6
+Homepage: https://python.org/
+Description: Wheels for Python ensurepip
+
+Package: python-xcbgen
+Version: 1.17.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 404
+Depends: xcb-proto (= 1.17.0-1)
+Recommends: python
+Breaks: xcb-proto (<< 1.15.2)
+Replaces: xcb-proto (<< 1.15.2)
+Filename: pool/main/python-xcbgen_1.17.0-1_all.deb
+Size: 44600
+MD5sum: 0dbb52b7658cde296262a74938854bc9
+SHA1: 4477f243cfc08273efece97ec0163127dc4e978b
+SHA256: 374c43053edf53d3faf822dab26f084b16f534921fac2545d113975b5424311e
+Homepage: https://xcb.freedesktop.org/
+Description: The xcbgen Python module
+
+Package: termux-am
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Michal Bednarski @michalbednarski
+Installed-Size: 572
+Conflicts: termux-tools (<< 0.51)
+Filename: pool/main/termux-am_0.8.0-1_all.deb
+Size: 577232
+MD5sum: a263e75b230153b26ef357b4f7cbac29
+SHA1: 02ff0c2c2e891f6dc440a2d86893d9d21dcb3e1e
+SHA256: e1e4756a0cca91f75ea13869d569d158aa8abb99acde34382620e747847e5d40
+Homepage: https://github.com/termux/TermuxAm
+Description: Android Oreo-compatible am command reimplementation
+
+Package: termux-keyring
+Version: 3.12-1
+Architecture: all
+Essential: yes
+Maintainer: @termux
+Installed-Size: 68
+Filename: pool/main/termux-keyring_3.12-1_all.deb
+Size: 39340
+MD5sum: b0e57112e58b5ef0442bbd6c22d600d2
+SHA1: 6cbf18463f7248d94134ba5cd8fc500acbf8960d
+SHA256: 96cd15bbe9ec876bc8b9fa6e487f6173526cac4b6f8ad6046bf5acca93f3d1a5
+Homepage: https://github.com/termux
+Description: GPG public keys for the official Termux repositories
+
+Package: termux-licenses
+Version: 2.1
+Architecture: all
+Essential: yes
+Maintainer: @termux
+Installed-Size: 576
+Filename: pool/main/termux-licenses_2.1_all.deb
+Size: 52564
+MD5sum: df93b503be53a980f40294d3d3071986
+SHA1: 1b4df517524bec73531459665dc1456cdb7595b4
+SHA256: f57c57eac30e1a0d0224ba06b3cd0d29ea1e1c927576bdad2e42d554cd2abd8e
+Homepage: https://termux.dev
+Description: Contains LICENSE files for common licenses
+
+Package: ttf-dejavu
+Version: 2.37-8
+Architecture: all
+Maintainer: @termux
+Installed-Size: 10060
+Filename: pool/main/ttf-dejavu_2.37-8_all.deb
+Size: 2459696
+MD5sum: e0966256b43ccc32a7e0cf27a3512a7d
+SHA1: 105094af130bd10f838ad1535a2c3faf3c1091dc
+SHA256: f5967567803a3e10985ed4ae3469611dea3f3af71f695697df8f7d100d883f4d
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Package: vulkan-headers
+Version: 1.4.311
+Architecture: all
+Maintainer: @termux
+Installed-Size: 31312
+Filename: pool/main/vulkan-headers_1.4.311_all.deb
+Size: 1541056
+MD5sum: 97a930398c4212d989e84b2335b095ef
+SHA1: 437edeecfb7eb296254fad5152aa7b867b7ee02a
+SHA256: 933713b7eafd7e564e58a0c14ce81168ca48f90f31c2ad5532634e6a3f65a947
+Homepage: https://github.com/KhronosGroup/Vulkan-Headers
+Description: Vulkan Header files and API registry
+
+Package: vulkan-loader
+Version: 0.0.3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 0
+Depends: vulkan-loader-generic | vulkan-loader-android
+Filename: pool/main/vulkan-loader_0.0.3_all.deb
+Size: 708
+MD5sum: 88cd6374d57f71272c8819abca9a1c8c
+SHA1: 54934a1d2c14bf9d531c28a2942a06f1ce30bae6
+SHA256: 785694844d03f06194cc0997239a6f1e7e2755fd92dd8351353b0e2f0d58465a
+Homepage: https://github.com/termux/termux-packages
+Description: A metapackage that provides vulkan loader library
+
+Package: xcb-proto
+Version: 1.17.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 772
+Conflicts: xcbproto
+Replaces: xcbproto
+Filename: pool/main/xcb-proto_1.17.0-1_all.deb
+Size: 78624
+MD5sum: 54c04e13edd781767237afbc18a894ad
+SHA1: de96cfd972e7738fea2e0e978b26c28ceea58edd
+SHA256: b115678f66beb881041d3e4b74299887434930f77529b4d4bc708e50a4e19092
+Homepage: https://xcb.freedesktop.org/
+Description: XML-XCB protocol descriptions
+
+Package: xorg-util-macros
+Version: 1.20.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 96
+Filename: pool/main/xorg-util-macros_1.20.2_all.deb
+Size: 21964
+MD5sum: d0ba305bd51edf11ac0fc15656b6db1f
+SHA1: 185d2c64b388946f5971661caad44fde101261c3
+SHA256: 80e00ddb9e83112716ac66038890925d07d1eb40b5c3cf8086fa7e7c2c446cea
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+
+Package: xorgproto
+Version: 2024.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2220
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Filename: pool/main/xorgproto_2024.1_all.deb
+Size: 247704
+MD5sum: 773684b73d67fbec18920a6a2bf20b52
+SHA1: 27f9656d8887b3741445bee0e78ef0c5069ac66c
+SHA256: 72b31160367cfef997599155fb6f7eb0d8ab24454cb65eb459f8896eae387d0c
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org X11 Protocol headers
+
+Package: xtrans
+Version: 1.6.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 240
+Filename: pool/main/xtrans_1.6.0_all.deb
+Size: 39896
+MD5sum: 6e47d1460dace5228cc7474c96238beb
+SHA1: 4e05021a624281cef4bdaacca507a398193ff181
+SHA256: 766def822a6a763473127f997d9415791b39b479ee705fe7513fb185183e88ec
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+
